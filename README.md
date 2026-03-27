@@ -10,16 +10,8 @@ Designed to be clear, reproducible and suitable for use within NHS IG requiremen
 ## What this project does
 Helps organisations to:
 - Understand what staff are talking about in their free comments
-- Identify common themes such as:
--   workload
--   leadership
--   teamwork
--   wellbeing
-- Detect emotional tone:
--   frustration
--   pride
--   anxiety
--   optimism
+- Identify common themes such as: workload, leadership, teamwork, wellbeing
+- Detect emotional tone: frustration, pride, anxiety, optimism
 - Recognise when comments relate to more than one issue at the same time
 - Produce insights that support workforce planning, culture improvement, and staff wellbeing initiatives
 No real NHS data is included in this repository. Only example structures and placeholder files are provided
