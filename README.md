@@ -43,7 +43,7 @@ Project demonstrates how these principles can be combined - practical, responsib
 - Human review included to ensure accuracy and fairness
 
 ## What's Inside
-Repo organised into simple folder
+Repo organised into simple folders
 - docs/ - Plain English explanations of workflow, ethics, and evaluation
 - notebooks/ - Step by step example analysis notebooks
 - src/ - Code used to run the workflow
