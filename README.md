@@ -27,17 +27,17 @@ Project demonstrates how these principles can be combined - practical, responsib
 
 ## How it works
 4 main stages
-### Preparation
+#### Preparation
 - Text is cleaned and prepared
 - No personal identifiers used
 - Data handled with NHS IG standards
-### Understanding the Content
+#### Understanding the Content
 - Topic modelling for main themes
 - Multi-label classification for comments that relate to several issues at once
-### Understanding the Emotion
+#### Understanding the Emotion
 - Sentiment and emotion analysis for tone
 - Helps identify areas of concern or positive experience
-### Bringing it Together
+#### Bringing it Together
 - Hybrid pipeline combines methods
 - Results summarised in a clear, accessible way
 - Human review included to ensure accuracy and fairness
