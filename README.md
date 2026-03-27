@@ -7,6 +7,25 @@ Maintiaining transparency, ethics, and usefulness for organisational decision ma
 Combines several modern techniques include topic modelling, sentiment analysis, multi-label classification, and transformer based language models.
 Designed to be clear, reproducible and suitable for use within NHS IG requirements
 
+## 🔍 High‑Level Workflow Overview
+
+```mermaid
+flowchart LR
+    A[📥 Staff Survey Free‑Text<br><small>Secure NHS environment</small>] --> 
+    B[🧹 Preparation<br><small>Cleaning & de‑identification</small>]
+
+    B --> C[🧭 Topic Modelling<br><small>Discover themes</small>]
+    B --> D[💬 Sentiment & Emotion<br><small>Understand tone</small>]
+    B --> E[🏷 Multi‑Label Classification<br><small>Multiple issues per comment</small>]
+
+    C --> F[🔗 Hybrid Integration]
+    D --> F
+    E --> F
+
+    F --> G[👀 Human Review]
+    G --> H[📊 Insights & Reporting]
+```
+
 ## What this project does
 Helps organisations to:
 - Understand what staff are talking about in their free comments
