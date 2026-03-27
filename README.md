@@ -7,7 +7,7 @@ Maintiaining transparency, ethics, and usefulness for organisational decision ma
 Combines several modern techniques include topic modelling, sentiment analysis, multi-label classification, and transformer based language models.
 Designed to be clear, reproducible and suitable for use within NHS IG requirements
 
-## 🔍 High‑Level Workflow Overview
+## High‑Level Workflow Overview
 
 ```mermaid
 flowchart LR
