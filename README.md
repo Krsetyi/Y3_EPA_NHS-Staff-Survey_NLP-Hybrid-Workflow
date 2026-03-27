@@ -44,16 +44,11 @@ Project demonstrates how these principles can be combined - practical, responsib
 
 ## What's Inside
 Repo organised into simple folder
-- docs/
--   Plain English explanations of workflow, ethics, and evaluation
-- notebooks/
--   Step by step example analysis notebooks
-- src/
--   Code used to run the workflow
-- reports/
--   Example outputs and diagrams
-- data/
--   empty folders showing where data WOULD go
+- docs/ - Plain English explanations of workflow, ethics, and evaluation
+- notebooks/ - Step by step example analysis notebooks
+- src/ - Code used to run the workflow
+- reports/ - Example outputs and diagrams
+- data/ - empty folders showing where data WOULD go
 
 ## IG and ethics summary
 Project follows key principles
