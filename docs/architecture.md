@@ -1,3 +1,4 @@
+```mermaid
 flowchart LR
     %% Style settings for a more visual, infographic feel
     classDef stage fill:#e8f1fb,stroke:#2a4b8d,stroke-width:1px,color:#1a1a1a;
