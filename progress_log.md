@@ -1,5 +1,9 @@
 **Date:**
+
 **Time spent:**
-**Task**
-**Decisions made**
-**Questions / risks**
+
+**Task:**
+
+**Decisions made:**
+
+**Questions / risks:**
