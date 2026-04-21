@@ -77,6 +77,9 @@ Repo organised into simple folders
 - reports/ - Example outputs and diagrams
 - data/ - empty folders showing where data WOULD go
 
+### Question-to-Theme Mapping
+This project also includes a dedicated /mapping folder containing the question-to-theme mapping tables used during manual analysis. These tables show how NHS Staff Survery questions align with the hierarchical People Promise taxonomy and were developed through four years of qualitative coding. They provide transparency, support reproducibility, and help future analysts understand how free text themes relate back to the survey structure
+
 ## IG and ethics summary
 Project follows key principle
 
