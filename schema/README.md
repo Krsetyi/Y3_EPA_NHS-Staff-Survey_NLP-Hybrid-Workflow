@@ -15,7 +15,7 @@ A long-format table where each row represents a single atomic category (e.g. a s
 This structure supports filtering, joining, and future model training
 
 #### Columns include:
-| Column | Description|
+| Column | Description |
 |----------|----------|
-| Value 1  | Value 2  |
-| Value 4  | Value 5  |
+| Layer | 1 = People Promise taxonomy, 2 = Emergent themes, 3 = Action-owner routing |
+| PeoplePromise | Top-level Peole Promise category (Layer 1 only) |
