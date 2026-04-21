@@ -19,3 +19,8 @@ This structure supports filtering, joining, and future model training
 |----------|----------|
 | Layer | 1 = People Promise taxonomy, 2 = Emergent themes, 3 = Action-owner routing |
 | PeoplePromise | Top-level Peole Promise category (Layer 1 only) |
+| Theme | Themes within the People Promise or emergent theme name |
+| SubTheme | Sub-theme (Layer 1 only)
+| FurtherSubTheme | Additional granularity where applicable |
+|RoutingOwner| Senior leadership group responsible for action (Layer 3) |
+| Notes | Optional notes for analysts or maintainers |
