@@ -15,3 +15,7 @@ A long-format table where each row represents a single atomic category (e.g. a s
 This structure supports filtering, joining, and future model training
 
 #### Columns include:
+| Column | Description|
+|----------|----------|
+| Value 1  | Value 2  |
+| Value 4  | Value 5  |
