@@ -30,3 +30,11 @@ This structure supports filtering, joining, and future model training
 ## Layer Descriptions
 
 ### Layer 1 - People Promise Theme Classification
+
+This layer contains the full hierarchical taxonomy developed through four years of manual analysis.
+It includes:
+- People Promise categories
+- Themes
+- Sub-themes
+- Further sub-themes (where applicable)
+This layer ensures consistency with national frameworks and supports interpretability for leadership audiences
