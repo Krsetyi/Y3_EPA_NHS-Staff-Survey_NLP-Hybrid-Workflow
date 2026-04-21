@@ -24,3 +24,7 @@ This structure supports filtering, joining, and future model training
 | FurtherSubTheme | Additional granularity where applicable |
 |RoutingOwner| Senior leadership group responsible for action (Layer 3) |
 | Notes | Optional notes for analysts or maintainers |
+
+## Layer Descriptions
+
+### Layer 1 - People Promise Theme Classification
