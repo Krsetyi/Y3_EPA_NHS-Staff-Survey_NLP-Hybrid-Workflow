@@ -75,11 +75,11 @@ Analysts use the mapping to ensure consistent interpretation of comments that re
 The mapping can be used to:
 - Generate labelled examples
 - Validate model predictions
-- Support rule-basxed overrides
+- Support rule-based overrides
 - Interpret topic modelling outputs
 
 ### During reporting
-It helps explkain how free text insights relate back to the quantiative survey structure.
+It helps explain how free text insights relate back to the quantiative survey structure.
 
 ## Maintenance Guidelines
 - Add new mappins as new rows - do not overwrite existing ones
