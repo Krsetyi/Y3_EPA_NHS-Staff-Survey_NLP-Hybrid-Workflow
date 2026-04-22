@@ -1,4 +1,4 @@
-# Annotation Schema - README
+# Annotation Schema
 
 ## Overview
 This folder contains the three-layer annotation schema used to classify the NHS Staff Survery free-text comments within the hybrid NLP workflow. The schema provides a structured, auditable way to map comments to
