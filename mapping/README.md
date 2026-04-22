@@ -3,7 +3,7 @@
 ## Overview
 This folder contains the question-to-theme mapping tables used to align NHS Staff Survey questions with the hierarchical People Promise taxonomy. These mappings were developed through four years of manual free text analysis and provide the conceptual foundation for consistent, transparent classiication of staff comments.
 
-The mapping shows how each survey question relates to
+The mapping shows how each survey question relates to:
 - a People Promise category
 - a theme
 - a sub-theme
@@ -23,3 +23,15 @@ The question-to-theme mapping serves several key functions:
 - It provides a clear audit trail showing how thematic decisions were made and how the taxonomy sligns with national survey design.
 5. Helps future analysts understand the logic
 - Anyone reviewing or extending the taxonomy can see the rationale behind each category
+
+## Files in This Folder
+question_theme_mapping.csv
+A long-format table where each row represents a single survey question mapped to:
+- People Promise
+- Theme
+- Sub-theme
+- Further sub-theme (if applicable)
+This structure makes it easy to filter, pivot, or join with other datasets
+
+README.md
+This document
