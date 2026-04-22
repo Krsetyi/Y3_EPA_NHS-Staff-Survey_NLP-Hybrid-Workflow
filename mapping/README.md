@@ -56,6 +56,7 @@ If included, this file tracks updates to the mapping over time.
 ## How the Mapping is Structured
 Each row in the CSV includes:
 | Column | Description|
+|----------|----------|
 | Question | The NHS Staff Survey question text |
 | PeoplePromise | The top level People Promise category |
 | Theme | The theme within the People Promise |
