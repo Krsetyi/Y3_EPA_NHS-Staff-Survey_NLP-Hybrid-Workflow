@@ -82,7 +82,7 @@ The mapping can be used to:
 It helps explain how free text insights relate back to the quantiative survey structure.
 
 ## Maintenance Guidelines
-- Add new mappins as new rows - do not overwrite existing ones
+- Add new mappings as new rows - do not overwrite existing ones
 - Use version control (pull requests) for transparency
 - Document any changes in CHANGELOG.md
 - Keep question wording consistent with the official NHS Staff Survey
