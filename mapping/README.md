@@ -63,6 +63,7 @@ Each row in the CSV includes:
 | SubTheme | The sub theme (if applicable) |
 | FurtherSubTheme | Additional granularity where relevant |
 | Notes | Optional analyst notes |
+
 This mirrors the structure of the annotation schema but focuses on survey questions, not free text comments.
 
 ## How This Mapping Is Used int he Workflow
