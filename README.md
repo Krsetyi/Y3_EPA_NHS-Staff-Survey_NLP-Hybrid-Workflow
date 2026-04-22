@@ -39,7 +39,7 @@ Only example structures and placeholder files are provided
 ## Why this  matters
 Free text contains rich insights that quant often miss. However, manually reading is time-concuming, inconsistent, and emotionally taxxing
 
-NLP offers a way to ana,yse at scale while still respecting:
+NLP offers a way to analyse at scale while still respecting:
 
 - Staff confidentiality
 - NHS IG
