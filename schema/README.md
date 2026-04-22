@@ -92,7 +92,7 @@ This layer ensures that insights lead to clear accountability and organisational
 
 
 ## Versioning
-All changes to the schema shold be made via pull request to ensure:
+All changes to the schema should be made via pull request to ensure:
 - Traceability
 - Peer review
 - Clear change history
