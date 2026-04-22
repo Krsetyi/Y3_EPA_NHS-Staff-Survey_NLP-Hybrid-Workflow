@@ -81,12 +81,12 @@ Repo organised into simple folders
 This project also includes a dedicated /mapping folder containing the question-to-theme mapping tables used during manual analysis. These tables show how NHS Staff Survey questions align with the hierarchical People Promise taxonomy and were developed through four years of qualitative coding. They provide transparency, support reproducibility, and help future analysts understand how free text themes relate back to the survey structure
 
 ## IG and ethics summary
-Project follows key principle
+Project follows key principles
 
 - No identifiable data stored in repo
 - All analysis steps are transparent and documented
 - Human oversight included to avoid misinterpretation
-- Methods chosen to minimuse bias and support fairness
+- Methods chosen to minimise bias and support fairness
 - Workflow aligns with GDPR and NHS IG expectations
 
 Full explaination available in docs/ethics_ig.md
