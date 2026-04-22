@@ -14,6 +14,7 @@ The schema is designed to be machine-readable, version-controlled, and aligned t
 annotation_schema.csv
 
 A long-format table where each row represents a single atomic category (e.g. a sub-theme or emergent theme)
+
 This structure supports filtering, joining, and future model training
 
 #### Columns include:
