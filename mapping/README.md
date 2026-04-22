@@ -35,3 +35,47 @@ This structure makes it easy to filter, pivot, or join with other datasets
 
 ### README.md
 This document
+
+### CHANGELOG.md
+If included, this file tracks updates to the mapping over time.
+
+## How the Mapping is Structured
+Each row in the CSV includes:
+| Column | Description|
+| Question | The NHS Staff Survey question text |
+| PeoplePromise | The top level People Promise category |
+| Theme | The theme within the People Promise |
+| SubTheme | The sub theme (if applicable) |
+| FurtherSubTheme | Additional granularity where relevant |
+| Notes | Optional analyst notes |
+This mirrors the structure of the annotation schema but focuses on survey questions, not free text comments.
+
+## How This Mapping Is Used int he Workflow
+
+### During manual analysis
+Analysts use the mapping to ensure consistent interpretation of comments that reference specific survey constrcuts.
+
+### During model development
+The mapping can be used to:
+- Generate labelled examples
+- Validate model predictions
+- Support rule-basxed overrides
+- Interpret topic modelling outputs
+
+### During reporting
+It helps explkain how free text insights relate back to the quantiative survey structure.
+
+## Maintenance Guidelines
+- Add new mappins as new rows - do not overwrite existing ones
+- Use version control (pull requests) for transparency
+- Document any changes in CHANGELOG.md
+- Keep question wording consistent with the official NHS Staff Survey
+- Use the Notes column to explain ambiguous or multi-theme mappings
+
+## Relationship to the Annotation Schema
+This mapping is not part of the schema itself, instead it is a supporting artefact that:
+- Informs the Peole Promise taxonomy
+- Strengthens methodological transparency
+- Provides evidence for EPA assessment
+- Supports reproducibility and governance
+The annotation schema lives in /schema/. This folder provides the conceptual link between the survey instrument and the taxonomy
