@@ -96,4 +96,5 @@ All changes to the schema should be made via pull request to ensure:
 - Traceability
 - Peer review
 - Clear change history
+
 This support reproducibility and strengthens the governance model
