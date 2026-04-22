@@ -66,7 +66,7 @@ Each row in the CSV includes:
 
 This mirrors the structure of the annotation schema but focuses on survey questions, not free text comments.
 
-## How This Mapping Is Used int he Workflow
+## How This Mapping Is Used in the Workflow
 
 ### During manual analysis
 Analysts use the mapping to ensure consistent interpretation of comments that reference specific survey constrcuts.
