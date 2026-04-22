@@ -5,6 +5,7 @@ This folder contains the three-layer annotation schema used to classify the NHS 
 - NHS People Promise themes and sub themes
 - Emergent themes identified through topic modelling
 - Action-owner routing categories for organisational response
+
 The schema is designed to be machine-readable, version-controlled, and aligned to NHS workforce, OD, and governance structures.
 
 
@@ -37,6 +38,7 @@ It includes:
 - Themes
 - Sub-themes
 - Further sub-themes (where applicable)
+
 This layer ensures consistency with national frameworks and supports interpretability for leadership audiences
 
 ### Layer 2 - Emergent Theme Detection
@@ -48,6 +50,7 @@ Examples include:
 - New organisational risks
 - Policy / change related themes
 - Unexpected positive signals
+
 These themes evolve over time and may be promoted into Layer 1 if they stabilise.
 
 ### Layer 3 - Action-Owner Routing
@@ -62,6 +65,7 @@ Examples include (awaiting actual list):
 - HR Business Partners
 - Operational Leadership Team
 - Analyst Review Required
+
 This layer ensures that insights lead to clear accountability and organisational action.
 
 
