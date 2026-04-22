@@ -94,4 +94,5 @@ This mapping is not part of the schema itself, instead it is a supporting artefa
 - Strengthens methodological transparency
 - Provides evidence for EPA assessment
 - Supports reproducibility and governance
+
 The annotation schema lives in /schema/. This folder provides the conceptual link between the survey instrument and the taxonomy
