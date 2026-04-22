@@ -74,7 +74,7 @@ This layer ensures that insights lead to clear accountability and organisational
 
 ### For Developers
 - Use the schema as a label map for supervised or hybrid models
-- Validate model outputs aganst the schema to ensure consistency
+- Validate model outputs against the schema to ensure consistency
 - Extend the schema by adding new rows rather than modifying existing ones
 
 ### For Goverance and Leadership
