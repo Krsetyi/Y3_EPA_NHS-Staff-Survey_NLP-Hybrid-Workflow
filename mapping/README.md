@@ -17,17 +17,21 @@ The question-to-theme mapping serves several key functions:
 
 It demonstrates that the People Promise hierarchy used in the annotation schema is grounded in the actual constructs measured by the NHS Staff Survey.
 
+
 2. Supports consistent manual and hybrid annotation.
 
 By linking questions to themes, analysts can more reliably interpret the intent behind comments and reduce subjective variation
+
 
 3. Enables training data creation.
 
 If supervised or hybrid models are developed, this mapping helps identify representative examples for each theme.
 
+
 4. Strengthens governance and transparency
 
 It provides a clear audit trail showing how thematic decisions were made and how the taxonomy sligns with national survey design.
+
 
 5. Helps future analysts understand the logic
 
