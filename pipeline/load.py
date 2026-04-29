@@ -1,5 +1,3 @@
-Goal: One place that knows how to read and validate staff survey data
-
 REQUIRED_COLUMNS = [
   "comment_id",
   "comment_text",
