@@ -1,3 +1,5 @@
+Goal: Centralise anything that might change later (paths, models, thresholds)
+
 from pathlib import Path
 DATA_DIR = Path("data")
 RAW_DIR = DATA_DIR / "raw"
