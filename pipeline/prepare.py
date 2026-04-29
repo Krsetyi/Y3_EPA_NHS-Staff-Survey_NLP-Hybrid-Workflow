@@ -1,5 +1,3 @@
-Goal: Prepare text in a consistent way for whatever model is plugged in later
-
 from config.preprocessing import LOWERCASE
 def normalise_for_model(text: str) -> str:
   if not isinstance(text, str):
