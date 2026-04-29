@@ -1,5 +1,3 @@
-Goal: Add derived fields that will be useful later (and for analysis)
-
 import pandas as pd
 def add_metadata(df: pd.DataFrame) -> pd.DataFrame:
   df = df.copy()
