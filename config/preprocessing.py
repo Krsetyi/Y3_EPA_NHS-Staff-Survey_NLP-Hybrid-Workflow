@@ -1,5 +1,3 @@
-Flags for behaviour
-
 LOWERCASE = True
 REMOVE_STOPWORDS = False
 APPLY_LEMMATISATION = False
