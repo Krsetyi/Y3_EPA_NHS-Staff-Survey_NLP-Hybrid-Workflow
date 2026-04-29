@@ -23,3 +23,11 @@ NON_COMMENT_PATTERNS = [r"^n/?a$", r"^see above$", r"^-+$"]
 def is_non_commnent(text: str) -> bool:
 t = text.strip().lower()
 return any(re.match(p, t) for p in NON_COMMENT_PATTERNS)
+
+
+import pandas as pd
+def clean_datefrane(dr: pd.DataFrame) -> pd.DataFrame:
+df = df.copy()
+df["is_non_comment"] = df["comment_text"].apply(is_non_comment)
+df["comment_clean"] = df["comment_text"].apply(clean_comment)
+return df
