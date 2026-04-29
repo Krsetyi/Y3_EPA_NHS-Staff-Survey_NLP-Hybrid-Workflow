@@ -1,5 +1,3 @@
-Goal: One function that runs the whole preprocessing chain in order
-
 from .load import load_all_years
 from .clean import clean_dataframe
 from .metadata import add_metadata
