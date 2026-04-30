@@ -1,7 +1,7 @@
 import re
 import pandas as pd
 
-# Regex to remove any redaction markers like [REDACTED], [name removed], etc.
+# Regex to remove any redaction markers like [name removed], [details removed], [REDACTED], etc.
 RE_REDACTION = re.compile(r"
 
 \[.*?removed.*?\]
