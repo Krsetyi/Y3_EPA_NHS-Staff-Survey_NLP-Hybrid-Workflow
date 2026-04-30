@@ -2,11 +2,7 @@ import re
 import pandas as pd
 
 # Regex to remove any redaction markers like [name removed], [details removed], [REDACTED], etc.
-RE_REDACTION = re.compile(r"
-
-\[.*?removed.*?\]
-
-", flags=re.IGNORECASE)
+RE_REDACTION = re.compile(r"\[.*?removed.*?\]", flags=re.IGNORECASE)
 
 def remove_redactions(text: str) -> str:
     return RE_REDACTION.sub("", text)
