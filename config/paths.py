@@ -11,6 +11,6 @@ STAFF_SURVEY_FILES = {
     2021: RAW_DIR / "2021.csv",
     2022: RAW_DIR / "2022.csv",
     2023: RAW_DIR / "2023.csv",
-  2024: RAW_DIR / "2024.csv",
-  2025: RAW_DIR / "2025.csv"
+    2024: RAW_DIR / "2024.csv",
+    2025: RAW_DIR / "2025.csv",
 }
