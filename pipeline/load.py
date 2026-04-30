@@ -7,16 +7,20 @@ REQUIRED_COLUMNS = [
 ]
 
 # load_year function
-import pandas as pd
-from config.paths import STAFF_SURVEY_FILES
-
 def load_year(year: int) -> pd.DataFrame:
-  path = STAFF_SURVEY_FILES[year]
-  df = pd.read_csv(path)
-  # basic validation
-  missing = [c for c in REQUIRED_COLUMNS if c not in df.columns]
-  if missing:
-    raise VALUEERROR(f"Missing columns for {year}: {missing}")
+    path = STAFF_SURVEY_FILES[year]
+
+    # Choose reader based on file extension
+    if path.suffix.lower() in [".xlsx", ".xls"]:
+        df = pd.read_excel(path)
+    else:
+        df = pd.read_csv(path)
+
+    # basic validation
+    missing = [c for c in REQUIRED_COLUMNS if c not in df.columns]
+    if missing:
+        raise ValueError(f"Missing columns for {year}: {missing}")
+
     return df
 
 # load_all_years function
