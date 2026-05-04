@@ -1,6 +1,12 @@
 Reproducible environment
 - Core Python packages
-  - pandas numpy tqdm transformers sentencepiece
+  - pandas numpy tqdm sentencepiece
 - NLP and data packages
+  - Hugging Face Transformers
+    - transformers
+      Pros: breadth of pre-trained models, strong community and frequent updates, excellent support for both research and production workflows
+  - spaCy
+  - Natural Language Toolkit (NLTK)
+  - nltk spacy sklearn transformers
 - Plotting and explainability packages
 - Version pins
