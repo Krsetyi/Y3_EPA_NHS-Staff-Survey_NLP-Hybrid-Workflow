@@ -21,12 +21,10 @@ The question-to-theme mapping serves several key functions:
 <br/><br/>
 3. Enables training data creation.
 - If supervised or hybrid models are developed, this mapping helps identify representative examples for each theme.
-
-
+<br/><br/>
 4. Strengthens governance and transparency
 - It provides a clear audit trail showing how thematic decisions were made and how the taxonomy sligns with national survey design.
-
-
+<br/><br/>
 5. Helps future analysts understand the logic
 - Anyone reviewing or extending the taxonomy can see the rationale behind each category
 
