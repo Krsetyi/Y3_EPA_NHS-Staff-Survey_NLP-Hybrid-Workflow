@@ -1,1 +1,8 @@
+Purpose: Prevent sensitive or large files from being committed
 
+Must exclude:
+- /data/raw/
+- /data/processed/
+- Any .csv or .xlsx
+- Credentials
+- Colab checkpoints
