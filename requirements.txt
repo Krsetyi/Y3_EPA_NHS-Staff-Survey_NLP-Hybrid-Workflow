@@ -42,7 +42,7 @@ Reproducible environment
       Note: No longer under active development, though library remains stable and widely used
   - Textacy
     - textacy
-      Pros: Filss gaps in spaCy's functionality rather than duplicating; includes preprocessing utilities covering common edge cases such as unicode normalisation, URL handling, and accented characters; usefuly for teams already invested in a spaCy based workflow
+      Pros: Filss gaps in spaCys functionality rather than duplicating; includes preprocessing utilities covering common edge cases such as unicode normalisation, URL handling, and accented characters; usefuly for teams already invested in a spaCy based workflow
       Cons: Tightly coupled to spaCy, so not useful outside of a spaCy workflow; the most recent PyPI release was 2023 and shows limited maintenance activity
   - PyNLPl (Pineapple)
     - pynlpl
