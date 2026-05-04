@@ -22,7 +22,7 @@ Reproducible environment
   - Stanza
     - stanza
       Pros: Strong multilingual coverage; high accuracy accross languages (neural network architecture), clean Python API, backed by Stanford NLP Group's ongoing research, well documented with active maintenance
-      Cons: Heavier compute requirements than rule based alternatives, model downloads can be large especially when working across many languages, most deployment examples/integrations are built around spaCy or Hugging Face
+      Cons: Heavier compute requirements than rule based alternatives, model downloads can be large especially when working across many languages, most deployment examples/integrations are built around spaCy or Hugging Face.
   - Flair
     - flair
       Pros: High accuracy on sequence labelling tasks; flexible embedding architecture = easy to experiment; strong research pedigree with active academic development; models hosted on Hugging Face Hub for easy access
