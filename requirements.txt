@@ -1,5 +1,6 @@
 Reproducible environment
 - Core Python packages
+  - pandas numpy tqdm transformers sentencepiece
 - NLP and data packages
 - Plotting and explainability packages
 - Version pins
