@@ -12,7 +12,7 @@ It is designed to be clear, reproducible, and suitable for use within NHS IG req
 ```mermaid
 flowchart LR
     A[📥 Staff Survey Free‑Text<br><small>Secure NHS environment</small>] --> 
-    B[🧹 Preparation<br><small>Cleaning & De‑Identification</small>]
+    B[🧹 Preparation<small>Cleaning & De‑Identification</small>]
 
     B --> C[🧭 Topic Modelling<br><small>Discover themes</small>]
     B --> D[💬 Sentiment & Emotion<br><small>Understand tone</small>]
