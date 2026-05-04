@@ -4,9 +4,49 @@ Reproducible environment
 - NLP and data packages
   - Hugging Face Transformers
     - transformers
-      Pros: breadth of pre-trained models, strong community and frequent updates, excellent support for both research and production workflows
+      Pros: breadth of pre-trained models; strong community and frequent updates; excellent support for both research and production workflow
+      Cons: Large model downloads = strain storage and compute resources; typically requires GPU infrastructure for practical throughput; model-specific dependencies & CUDA-aligned packages complicate environment reproducibility
   - spaCy
+    - spacy
+      Pros: Extremely fast processing speeds; clean and well-maintained API; production-ready architecture; excellent documentation; active community support
+      Cons: Less suited to research contexts that require rapid experimentation across multiple model architecture; fewer pre-trained models than Hugging Face Transformers
   - Natural Language Toolkit (NLTK)
-  - nltk spacy sklearn transformers
+    - nltk
+        Pros: Breadth of features; ideal for education and prototyping; rich access to linguistic resources; strong community and long track record
+        Cons: Slower than modern alternatives; not optimised for production deployment; designed for before deep learning; some tooling reflects older approaches
+  - sklearn
+  - Genism
+    - genism
+      Pros: Widely used for topic modelling and semantic similarity; highly efficient with large datasets; built-in support for performance optimsation via NumPy and BLAS libraries; clean and well documented API
+      Cons: Narrower in scope than general-purpose NLP libraries; not right tool for NER, dependency parsing, or sequence classification; topic modelling has stronger semantic coherence with transformer based alternatives
+  - Stanza
+    - stanza
+      Pros: Strong multilingual coverage; high accuracy accross languages (neural network architecture), clean Python API, backed by Stanford NLP Group's ongoing research, well documented with active maintenance
+      Cons: Heavier compute requirements than rule based alternatives, model downloads can be large especially when working across many languages, most deployment examples/integrations are built around spaCy or Hugging Face
+  - Flair
+    - flair
+      Pros: High accuracy on sequence labelling tasks; flexible embedding architecture = easy to experiment; strong research pedigree with active academic development; models hosted on Hugging Face Hub for easy access
+      Cons: Slower than spaCy for production workloads; smaller community and ecosystem than Hugging Face or spaCy; less suited to general-purpose natural language processing pipelines that go beyond sequence labelling and classification
+  - SentenceTransformers
+    - SBERT
+      Pros: Purpose built for sentence-level word embeddings, stronger results than general purpose transformer models on semantic similarity benchmarchs; integration with the Hugging Face ecosystem; extensive pretrained model selection; straightforward API
+      Cons: Narrower on scope than Hugging Face (if project goes beyond embeddings and retrieval will likely need additional libraries); embedding quality depends heavily on choosing the right pretrained model for case
+  - TextBlob
+    - textblob
+      Pros: Very user friendly; clean and readable API; good documentation for beginners; fast for prototyping and exploratory analysis
+      Cons: Not suitable for production scale workloads; limited model accuracy compared to modern deep learning alternatives
+  - VADER
+    - vader
+      Pros: No training data or model setup required; extremely fast; results are interpretable and easy to explain to non technical stakeholders; well validated against human raters; widely cited in academixc researc
+      Cons: Designed primary for English language short form text; struggles with sarcasm, irony, and complex negations; less accurate than fine tuned transformer based models on formal or domain specific text
+      Note: No longer under active development, though library remains stable and widely used
+  - Textacy
+    - textacy
+      Pros: Filss gaps in spaCy's functionality rather than duplicating; includes preprocessing utilities covering common edge cases such as unicode normalisation, URL handling, and accented characters; usefuly for teams already invested in a spaCy based workflow
+      Cons: Tightly coupled to spaCy, so not useful outside of a spaCy workflow; the most recent PyPI release was 2023 and shows limited maintenance activity
+  - PyNLPl (Pineapple)
+    - pynlpl
+      Pros: Excellent fro research workflows involving rich linguistic annotations; flexible and easy to extend; minimal footprint
+      Cons: Smaller community and fewer learning resources than mainstream libraries; not designed for general purpose production NLP; best suited to teams already working with FoLiA formatted data
 - Plotting and explainability packages
 - Version pins
