@@ -21,7 +21,7 @@ Reproducible environment
       Cons: Narrower in scope than general-purpose NLP libraries; not right tool for NER, dependency parsing, or sequence classification; topic modelling has stronger semantic coherence with transformer based alternatives
   - Stanza
     - stanza
-      Pros: Strong multilingual coverage; high accuracy accross languages (neural network architecture), clean Python API, backed by Stanford NLP Group's ongoing research, well documented with active maintenance
+      Pros: Strong multilingual coverage; high accuracy accross languages (neural network architecture), clean Python API, backed by Stanford NLP Groups ongoing research, well documented with active maintenance
       Cons: Heavier compute requirements than rule based alternatives, model downloads can be large especially when working across many languages, most deployment examples/integrations are built around spaCy or Hugging Face.
   - Flair
     - flair
