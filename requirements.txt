@@ -1,1 +1,5 @@
-
+Reproducible environment
+- Core Python packages
+- NLP and data packages
+- Plotting and explainability packages
+- Version pins
