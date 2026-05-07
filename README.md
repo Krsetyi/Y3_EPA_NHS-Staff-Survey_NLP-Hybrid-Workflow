@@ -71,11 +71,21 @@ Project demonstrates how these principles can be combined - practical, responsib
 ## What's Inside
 Repo organised into simple folders
 
-- docs/ - Plain English explanations of workflow, ethics, and evaluation
-- notebooks/ - Step by step example analysis notebooks
-- src/ - Code used to run the workflow
-- reports/ - Example outputs and diagrams
+- config/
 - data/ - empty folders showing where data WOULD go
+- docs/ - Plain English explanations of workflow, ethics, and evaluation
+- mapping/ - README and csv of mapping developed over 4 years of manual analysis
+- notebooks/ - Step by step example analysis notebooks
+- pipeline/
+- schema - 3 layer annotation schema
+- scripts/
+- src/ - Code used to run the workflow
+- tests/
+- .gitignore
+- README
+- environment
+- progress_log
+- requirements
 
 ### Question-to-Theme Mapping
 This project also includes a dedicated /mapping folder containing the question-to-theme mapping tables used during manual analysis. These tables show how NHS Staff Survey questions align with the hierarchical People Promise taxonomy and were developed through four years of qualitative coding. They provide transparency, support reproducibility, and help future analysts understand how free text themes relate back to the survey structure
