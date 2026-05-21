@@ -45,15 +45,39 @@ Layer,PeoplePromise,Theme,SubTheme,FurtherSubTheme,RoutingOwner,Notes
 1,Other,,Senior management,Other,,
 1,Other,,NHS and government,-,,
 1,Other,,Other,-,,
-2,�,Operational friction points,�,�,,Topic?model derived
-2,�,Localised cultural issues,�,�,,Topic?model derived
-2,�,New organisational risks,�,�,,Topic?model derived
-2,�,Policy/change?related themes,�,�,,Topic?model derived
-2,�,Unexpected positive signals,�,�,,Topic?model derived
-2,�,Unclassified emerging patterns,�,�,,Topic?model derived
-3,�,Routing rule,Primary owner,�,,
-3,�,Routing rule,Primary owner,�,,
-3,�,Routing rule,Primary owner,�,,
-3,�,Routing rule,Primary owner,�,,
-3,�,Routing rule,Primary owner,�,,
-3,�,Routing rule,Primary owner,�,,
+2,—,Operational friction points,—,—,,Topic?model derived
+2,—,Localised cultural issues,—,—,,Topic?model derived
+2,—,New organisational risks,—,—,,Topic?model derived
+2,—,Policy/change?related themes,—,—,,Topic?model derived
+2,—,Unexpected positive signals,—,—,,Topic?model derived
+2,—,Unclassified emerging patterns,—,—,,Topic?model derived
+3,—,Trust level action,PEGG,—,,
+3,—,Workforce planning,PEGG,—,,
+3,—,Recruitment,PEGG,—,,
+3,—,Leadership development,PEGG,—,,
+3,—,Education strategy,PEGG,—,,
+3,—,Quality of training,Education Leads,—,,
+3,—,Access to CPD,Education Leads,—,,
+3,—,Mandatory training,Education Leads,—,,
+3,—,Clinical supervision,Education Leads,—,,
+3,—,Apprenticeships,Education Leads,—,,
+3,—,Learning resources,Education Leads,—,,
+3,—,Commissioned programmes,NHSE Contract Assurance,—,,
+3,—,Statutory training requirements,NHSE Contract Assurance,—,,
+3,—,Funding allocation for education,NHSE Contract Assurance,—,,
+3,—,Contractual compliance,NHSE Contract Assurance,—,,
+3,—,Workforce fragility,PERRG,—,,
+3,—,Retention risk,PERRG,—,,
+3,—,Wellbeing risk,PERRG,—,,
+3,—,Education delivery risk,PERRG,—,,
+3,—,Impact on safety,PERRG,—,,
+3,—,Impact on continuity,PERRG,—,,
+3,—,Impact on organisational performance,PERRG,—,,
+3,—,Leadership behaviours,CIRG,—,,
+3,—,Team climate, CIRG,—,,
+3,—,Psychological sagety,CIRG,—,,
+3,—,Bullying / harassment,CIRG,—,,
+3,—,Repect and dignity,CIRG,—,,
+3,—,Just and Learning culture,CIRG,—,,
+3,—,Values and behaviours,CIRG,—,,
+3,—,Staff experience themes,CIRG,—,,
