@@ -1,0 +1,10 @@
+DQ Dimension,Definition,Why It Matters,Evidence from Audit,Risk Level
+Prompt Stability,Consistency of free-text prompts across years,"Prompt changes alter length, emotional salience, and thematic distribution","2020 has two COVID prompts; 2021-2025 have ""Any other comments?""",High
+Completeness,Presence / absence of comments,Ensures dataset is usable,All years show ~0% missing,Low
+Relevance,Whether comments relate to staff experience,Ensures comments map to People Promises,2020 highly COVID specific; later years general,Medium
+Usability,"Length, clarity, and meaningfulness of comments",Affects model training and interpretability,2020 long / emotional; 2021-2025 short / generic,High
+Consistency,"Formatting, redaction, structure",Affects preprocessing and modelling,Redaction varies across years,Medium
+Contextual Validity,"Whether the year reflects ""normal"" behaviour",Prevents crisis era bias,2020 is a behavioural anomaly,High
+Coverage,Representation of themes,Ensures balanced training data,"2020 over represents wellbeing, burnout, fear",Medium
+Label Consistency,Stability of manual labels across years,Ensures comparability,2022-2024 up to 8 themes; 2025 up to 19,High
+Label Completeness,Whether all comments have labels,Ensures training data quality,Manual labels exist only for 2022-2025,Medium
