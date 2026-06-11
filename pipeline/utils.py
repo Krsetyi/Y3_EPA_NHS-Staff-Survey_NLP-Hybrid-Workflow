@@ -1,7 +1,29 @@
-from pathlib import Path
+import logging
 
-run_preprocessing_block = """
+# ---------------------------------------------------------
+# Logger
+# ---------------------------------------------------------
+logger = logging.getLogger(__name__)
+logger.setLevel(logging.INFO)
+
+if not logger.handlers:
+    handler = logging.StreamHandler()
+    formatter = logging.Formatter("%(asctime)s - %(levelname)s - %(message)s")
+    handler.setFormatter(formatter)
+    logger.addHandler(handler)
+
+
+# ---------------------------------------------------------
+# Preprocessing entry point
+# ---------------------------------------------------------
 def run_preprocessing(years: list[int]):
+    """
+    Full preprocessing pipeline:
+    - Load all years
+    - Rename free_text_response to comment_text
+    - Clean text
+    - Return processed dataframe
+    """
     from .utils import logger
     from .load import load_all_years
     from .clean import clean_dataframe
@@ -10,7 +32,7 @@ def run_preprocessing(years: list[int]):
 
     df = load_all_years(years)
 
-    # Your files all use free_text_response
+    # Normalise column name
     if "free_text_response" in df.columns:
         df = df.rename(columns={"free_text_response": "comment_text"})
 
@@ -18,11 +40,3 @@ def run_preprocessing(years: list[int]):
 
     logger.info("Preprocessing complete. Rows: %d", len(df))
     return df
-"""
-
-for rel in ["pipeline/__init__.py", "pipeline/utils.py"]:
-    fpath = REPO_ROOT / rel
-    with open(fpath, "w") as f:
-        f.write(run_preprocessing_block)
-
-print("run_preprocessing overwritten in both files.")
