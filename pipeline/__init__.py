@@ -1,18 +1,27 @@
-from .load import load_all_years
-from .clean import clean_dataframe
-from .metadata import add_metadata
-from .prepare import prepare_for_model
+def run_preprocessing(years: list[int]):
+    """
+    Full preprocessing pipeline:
+    - Load all years
+    - Normalise text column names
+    - Rename to comment_text for pipeline compatibility
+    - Clean text
+    - Return processed dataframe
+    """
+    from .utils import logger
+    from .load import load_all_years
+    from .clean import clean_dataframe
 
-def run_preprocessing(years):
-    """
-    Run the full preprocessing pipeline:
-    - Load raw data for given years
-    - Clean text (redactions, whitespace, non-comments)
-    - Add metadata (length, flags)
-    - Prepare text for modelling
-    """
+    logger.info("Loading data for years: %s", years)
+
+    # Load and normalise
     df = load_all_years(years)
-    df = clean_dataframe(df)
-    df = add_metadata(df)
-    df = prepare_for_model(df)
+
+    # Rename unified column to what the pipeline expects
+    if "free_text_response" in df.columns:
+        df = df.rename(columns={"free_text_response": "comment_text"})
+
+    # Clean text
+    df = clean_dataframe(df, text_column="comment_text")
+
+    logger.info("Preprocessing complete. Rows: %d", len(df))
     return df
