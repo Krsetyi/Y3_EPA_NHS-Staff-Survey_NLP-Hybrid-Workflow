@@ -4,7 +4,7 @@ from config.paths import STAFF_SURVEY_FILES
 # Unified schema for NLP years
 REQUIRED_COLUMNS = [
     "comment_id",
-    "free_text",
+    "free_text_response",
     "year",
     "org_code",
     "prompt_type",
@@ -43,20 +43,20 @@ def load_year(year: int) -> pd.DataFrame:
     if year == 2023:
         df = df.rename(columns={
             "ID": "comment_id",
-            "Comment": "free_text",
+            "Comment": "free_text_response",
         })
         df["care_group"] = None
 
     elif year == 2024:
         df = df.rename(columns={
-            "Comment": "free_text",
+            "Comment": "free_text_response",
         })
         df["comment_id"] = _generate_ids(2024, len(df))
         df["care_group"] = None
 
     elif year == 2025:
         df = df.rename(columns={
-            "Comment": "free_text",
+            "Comment": "free_text_response",
             "NB1": "care_group",
         })
         df["comment_id"] = _generate_ids(2025, len(df))
@@ -76,4 +76,3 @@ def load_all_years(years: list[int]) -> pd.DataFrame:
     """Load and combine multiple years."""
     frames = [load_year(y) for y in years if y >= 2023]
     return pd.concat(frames, ignore_index=True)
-
