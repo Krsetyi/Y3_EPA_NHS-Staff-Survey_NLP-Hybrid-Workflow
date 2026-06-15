@@ -19,13 +19,6 @@ if not logger.handlers:
 # Preprocessing entry point
 # ---------------------------------------------------------
 def run_preprocessing(years: list[int]):
-    \"""
-    Full preprocessing pipeline:
-    - Load all years
-    - Rename free_text_response to comment_text
-    - Clean text
-    - Return processed dataframe
-    \"""
     from .utils import logger
     from .load import load_all_years
     from .clean import clean_dataframe
@@ -34,17 +27,37 @@ def run_preprocessing(years: list[int]):
 
     df = load_all_years(years)
 
-    # Normalise column name
-    if "free_text_response" in df.columns:
-        df = df.rename(columns={"free_text_response": "comment_text"})
+    # --- Normalise column names ---
+    df.columns = [c.strip().lower() for c in df.columns]
 
+    # --- Map any known text column to comment_text ---
+    TEXT_COLS = [
+        "free_text_response",
+        "comment",
+        "comments",
+        "comment_text",
+        "response",
+        "response_text",
+        "nb1",
+        "question text",
+        "question_text",
+        "column 1",
+        "column 2",
+    ]
+
+    text_col = None
+    for col in df.columns:
+        if col in TEXT_COLS:
+            text_col = col
+            break
+
+    if text_col is None:
+        raise KeyError("No text column found in dataframe.")
+
+    df = df.rename(columns={text_col: "comment_text"})
+
+    # --- Clean text ---
     df = clean_dataframe(df, text_column="comment_text")
 
     logger.info("Preprocessing complete. Rows: %d", len(df))
     return df
-"""
-
-with open(utils_path, "w") as f:
-    f.write(clean_utils)
-
-print("utils.py overwritten CLEANLY.")
