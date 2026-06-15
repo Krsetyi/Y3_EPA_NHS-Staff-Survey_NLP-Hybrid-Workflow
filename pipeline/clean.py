@@ -2,7 +2,11 @@ import re
 import pandas as pd
 
 # Regex to remove any redaction markers like [name removed], [details removed], [REDACTED], etc.
-RE_REDACTION = re.compile(r"\[.*?removed.*?\]", flags=re.IGNORECASE)
+RE_REDACTION = re.compile(r"
+
+\[.*?removed.*?\]
+
+", flags=re.IGNORECASE)
 
 def remove_redactions(text: str) -> str:
     return RE_REDACTION.sub("", text)
@@ -28,9 +32,10 @@ def is_non_comment(text: str) -> bool:
     t = text.strip().lower()
     return any(re.match(p, t) for p in NON_COMMENT_PATTERNS)
 
-def clean_dataframe(df: pd.DataFrame) -> pd.DataFrame:
+def clean_dataframe(df: pd.DataFrame, text_column: str = "comment_text") -> pd.DataFrame:
     df = df.copy()
-    df["is_non_comment"] = df["free_text_response"].apply(is_non_comment)
-    df["comment_clean"] = df["free_text_response"].apply(clean_comment)
+    df["is_non_comment"] = df[text_column].apply(is_non_comment)
+    df["comment_clean"] = df[text_column].apply(clean_comment)
     return df
+
 
