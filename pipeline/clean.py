@@ -30,6 +30,7 @@ def is_non_comment(text: str) -> bool:
 
 def clean_dataframe(df: pd.DataFrame) -> pd.DataFrame:
     df = df.copy()
-    df["is_non_comment"] = df["comment_text"].apply(is_non_comment)
-    df["comment_clean"] = df["comment_text"].apply(clean_comment)
+    df["is_non_comment"] = df["free_text_response"].apply(is_non_comment)
+    df["comment_clean"] = df["free_text_response"].apply(clean_comment)
     return df
+
