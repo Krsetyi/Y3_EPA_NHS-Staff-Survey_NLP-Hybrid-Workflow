@@ -1,83 +1,438 @@
-Layer,PeoplePromise,Theme,SubTheme,FurtherSubTheme,RoutingOwner,Notes
-1,We are compassionate and inclusive,,Compassionate culture,-,,
-1,We are compassionate and inclusive,,Compassionate leadership,-,,
-1,We are compassionate and inclusive,,Diversity and equality,-,,
-1,We are compassionate and inclusive,,Inclusion,-,,
-1,We are compassionate and inclusive,,Other,-,,
-1,We are recognised and rewarded,,Pay,Agenda for change / banding,,
-1,We are recognised and rewarded,,Pay,Cost of living,,
-1,We are recognised and rewarded,,Pay,Overtime / unpaid,,
-1,We are recognised and rewarded,,Pay,Other,,
-1,We are recognised and rewarded,,Valued,Non-acute vs acute,,
-1,We are recognised and rewarded,,Valued,Non-clinical vs clinical,,
-1,We are recognised and rewarded,,Valued,Other,,
-1,We each have a voice that counts,,Autonomy and control,-,,
-1,We each have a voice that counts,,Raising concerns,Acting on concerns / accountability,,
-1,We each have a voice that counts,,Raising concerns,Safe to speak out,,
-1,We each have a voice that counts,,Raising concerns,Other,,
-1,We are safe and healthy,,Health and safety climate,Health and wellbeing,,
-1,We are safe and healthy,,Health and safety climate,Staffing levels,,
-1,We are safe and healthy,,Health and safety climate,Workload,,
-1,We are safe and healthy,,Health and safety climate,Other,,
-1,We are safe and healthy,,Burnout,-,,
-1,We are safe and healthy,,Negative experiences,Abuse / bullying,,
-1,We are safe and healthy,,Negative experiences,Illness,,
-1,We are always learning,,Appraisals,-,,
-1,We are always learning,,Development,-,,
-1,We work flexibly,,Flexible working,-,,
-1,We work flexibly,,Support for work-life balance,-,,
-1,We are a team,,Team working,Team development,,
-1,We are a team,,Team working,Working relationships,,
-1,We are a team,,Line management,-,,
-1,We are a team,,Other,-,,
-1,Staff engagement,,Motivation,-,,
-1,Staff engagement,,Involvement,-,,
-1,Staff engagement,,Morale,-,,
-1,Morale,,Thinking about leaving,-,,
-1,Morale,,Work pressures,Resources,,
-1,Morale,,Work pressures,Staffing levels,,
-1,Morale,,Work pressures,Workload,,
-1,Morale,,Stressors,-,,
-1,Other,,Infrastructure and systems,-,,
-1,Other,,Senior management,Decision making,,
-1,Other,,Senior management,Engagement,,
-1,Other,,Senior management,Hierarchy,,
-1,Other,,Senior management,Other,,
-1,Other,,NHS and government,-,,
-1,Other,,Other,-,,
-2,-,Operational friction points,-,-,-,Topic?model derived
-2,-,Localised cultural issues,-,-,-,Topic?model derived
-2,-,New organisational risks,-,-,-,Topic?model derived
-2,-,Policy/change?related themes,-,-,-,Topic?model derived
-2,-,Unexpected positive signals,-,-,-,Topic?model derived
-2,-,Unclassified emerging patterns,-,-,-,Topic?model derived
-3,-,Trust level action,-,-,PEGG,
-3,-,Workforce planning,-,-,PEGG,
-3,-,Recruitment,-,-,PEGG,
-3,-,Leadership development,-,-,PEGG,
-3,-,Education strategy,-,-,PEGG,
-3,-,Quality of training,-,-,Education Leads,
-3,-,Access to CPD,-,-,Education Leads,
-3,-,Mandatory training,-,-,Education Leads,
-3,-,Clinical supervision,-,-,Education Leads,
-3,-,Apprenticeships,-,-,Education Leads,
-3,-,Learning resources,-,-,Education Leads,
-3,-,Commissioned programmes,-,-,NHSE Contract Assurance,
-3,-,Statutory training requirements,-,-,NHSE Contract Assurance,
-3,-,Funding allocation for education,-,-,NHSE Contract Assurance,
-3,-,Contractual compliance,-,-,NHSE Contract Assurance,
-3,-,Workforce fragility,-,-,PERRG,
-3,-,Retention risk,-,-,PERRG,
-3,-,Wellbeing risk,-,-,PERRG,
-3,-,Education delivery risk,-,-,PERRG,
-3,-,Impact on safety,-,-,PERRG,
-3,-,Impact on continuity,-,-,PERRG,
-3,-,Impact on organisational performance,-,-,PERRG,
-3,-,Leadership behaviours,-,-,CIRG,
-3,-,Team climate,-,-,CIRG,
-3,-,Psychological sagety,-,-,CIRG,
-3,-,Bullying / harassment,-,-,CIRG,
-3,-,Repect and dignity,-,-,CIRG,
-3,-,Just and Learning culture,-,-,CIRG,
-3,-,Values and behaviours,-,-,CIRG,
-3,—,Staff experience themes,-,-,CIRG,
+Layer	PeoplePromise	theme	SubTheme	FurtherSubTheme	routingownersecondary	Notes
+1	We are compassionate and inclusive		Compassionate culture	-		
+1	We are compassionate and inclusive		Compassionate leadership	-		
+1	We are compassionate and inclusive		Diversity and equality	-		
+1	We are compassionate and inclusive		Inclusion	-		
+1	We are compassionate and inclusive		Other	-		
+1	We are recognised and rewarded		Pay	Agenda for change / banding		
+1	We are recognised and rewarded		Pay	Cost of living		
+1	We are recognised and rewarded		Pay	Overtime / unpaid		
+1	We are recognised and rewarded		Pay	Other		
+1	We are recognised and rewarded		Valued	Non-acute vs acute		
+1	We are recognised and rewarded		Valued	Non-clinical vs clinical		
+1	We are recognised and rewarded		Valued	Other		
+1	We each have a voice that counts		Autonomy and control	-		
+1	We each have a voice that counts		Raising concerns	Acting on concerns / accountability		
+1	We each have a voice that counts		Raising concerns	Safe to speak out		
+1	We each have a voice that counts		Raising concerns	Other		
+1	We are safe and healthy		Health and safety climate	Health and wellbeing		
+1	We are safe and healthy		Health and safety climate	Staffing levels		
+1	We are safe and healthy		Health and safety climate	Workload		
+1	We are safe and healthy		Health and safety climate	Other		
+1	We are safe and healthy		Burnout	-		
+1	We are safe and healthy		Negative experiences	Abuse / bullying		
+1	We are safe and healthy		Negative experiences	Illness		
+1	We are always learning		Appraisals	-		
+1	We are always learning		Development	-		
+1	We work flexibly		Flexible working	-		
+1	We work flexibly		Support for work-life balance	-		
+1	We are a team		Team working	Team development		
+1	We are a team		Team working	Working relationships		
+1	We are a team		Line management	-		
+1	We are a team		Other	-		
+1	Staff engagement		Motivation	-		
+1	Staff engagement		Involvement	-		
+1	Staff engagement		Morale	-		
+1	Morale		Thinking about leaving	-		
+1	Morale		Work pressures	Resources		
+1	Morale		Work pressures	Staffing levels		
+1	Morale		Work pressures	Workload		
+1	Morale		Stressors	-		
+1	Other		Infrastructure and systems	-		
+1	Other		Senior management	Decision making		
+1	Other		Senior management	Engagement		
+1	Other		Senior management	Hierarchy		
+1	Other		Senior management	Other		
+1	Other		NHS and government	-		
+1	Other		Other	-		
+2	-	Operational friction points	-	-		Topic?model derived
+2	-	Localised cultural issues	-	-		Topic?model derived
+2	-	New organisational risks	-	-		Topic?model derived
+2	-	Policy/change?related themes	-	-		Topic?model derived
+2	-	Unexpected positive signals	-	-		Topic?model derived
+2	-	Unclassified emerging patterns	-	-		Topic?model derived
+3	-	ability to act	-	-	CIRG	
+3	-	absorbed in work	-	-	CIRG	
+3	-	abuse	-	-	CIRG	
+3	-	abuse from colleagues	-	-	CIRG	
+3	-	abuse from managers	-	-	CIRG	
+3	-	access to food	-	-	PERRG	
+3	-	access to learning	-	-	Education Leads	
+3	-	accountability	-	-	CIRG	
+3	-	actively wanting to leave	-	-	PERRG	
+3	-	acute vs non-acute appreciation	-	-	CIRG	
+3	-	acute vs non-acute disparity	-	-	CIRG	
+3	-	acute vs non-acute recognition	-	-	CIRG	
+3	-	affordability	-	-	CIRG	
+3	-	affordable food	-	-	PERRG	
+3	-	agency reliance	-	-	PERRG	
+3	-	Agenda for Change	-	-	CIRG	
+3	-	aggression	-	-	CIRG	
+3	-	aggression from patients	-	-	CIRG	
+3	-	annual review	-	-	CIRG	
+3	-	appraisal completed	-	-	CIRG	
+3	-	appreciation	-	-	CIRG	
+3	-	appreciation from organisation	-	-	CIRG	
+3	-	authority to act	-	-	CIRG	
+3	-	autonomy	-	-	CIRG	
+3	-	balancing work and home	-	-	CIRG	
+3	-	banding	-	-	CIRG	
+3	-	barriers to change	-	-	PEGG	
+3	-	barriers to improvement	-	-	PEGG	
+3	-	barriers to reporting	-	-	CIRG	
+3	-	being heard	-	-	CIRG	
+3	-	belonging	-	-	CIRG	
+3	-	bias	-	-	CIRG	
+3	-	blocked ideas	-	-	PEGG	
+3	-	blocked progression	-	-	PEGG	
+3	-	broken tools	-	-	PERRG	
+3	-	building problems	-	-	PERRG	
+3	-	bullying	-	-	CIRG	
+3	-	bureaucracy	-	-	PERRG	
+3	-	burnout	-	-	PERRG	
+3	-	burnout indicators	-	-	PERRG	
+3	-	burnout spillover	-	-	PERRG	
+3	-	care quality	-	-	PERRG	
+3	-	career development	-	-	Education Leads	
+3	-	challenging work	-	-	CIRG	
+3	-	chronic fatigue	-	-	PERRG	
+3	-	civility	-	-	CIRG	
+3	-	clarity from appraisal	-	-	CIRG	
+3	-	clarity of roles	-	-	CIRG	
+3	-	clear expectations	-	-	CIRG	
+3	-	clear feedback	-	-	CIRG	
+3	-	clear objectives	-	-	CIRG	
+3	-	clinical praised	-	-	CIRG	
+3	-	clinical supervision	-	-	Education Leads	
+3	-	clinical vs non-clinical appreciation	-	-	CIRG	
+3	-	clinical vs non-clinical recognition	-	-	CIRG	
+3	-	cohesion	-	-	CIRG	
+3	-	collaboration	-	-	CIRG	
+3	-	Commissioned programmes	-	-	NHSE Contract Assurance	
+3	-	common purpose	-	-	CIRG	
+3	-	communication from senior leaders	-	-	CIRG	
+3	-	communication quality	-	-	PERRG	
+3	-	community forgotten	-	-	CIRG	
+3	-	compassion	-	-	CIRG	
+3	-	complaints handling	-	-	CIRG	
+3	-	concerns acted on	-	-	CIRG	
+3	-	concerns ignored	-	-	CIRG	
+3	-	conflict	-	-	CIRG	
+3	-	conflict resolution	-	-	CIRG	
+3	-	conflicting demands	-	-	PERRG	
+3	-	confusion about role boundaries	-	-	CIRG	
+3	-	connection	-	-	CIRG	
+3	-	considerate behaviour	-	-	CIRG	
+3	-	constant tiredness	-	-	PERRG	
+3	-	constructive conflict	-	-	CIRG	
+3	-	constructive feedback	-	-	CIRG	
+3	-	consultation	-	-	CIRG	
+3	-	Contractual compliance	-	-	NHSE Contract Assurance	
+3	-	contribution	-	-	PEGG	
+3	-	corporate invisible	-	-	CIRG	
+3	-	courteous interactions	-	-	CIRG	
+3	-	covid impact	-	-	PERRG	
+3	-	covid stress	-	-	PERRG	
+3	-	covid-related workload	-	-	PERRG	
+3	-	creativity	-	-	PEGG	
+3	-	cross-team working	-	-	CIRG	
+3	-	deadlines	-	-	PERRG	
+3	-	decision-making inclusion	-	-	CIRG	
+3	-	declining quality	-	-	PERRG	
+3	-	defined responsibilities	-	-	CIRG	
+3	-	delays	-	-	PERRG	
+3	-	depletion	-	-	PERRG	
+3	-	development access	-	-	Education Leads	
+3	-	development pathways	-	-	Education Leads	
+3	-	development review	-	-	CIRG	
+3	-	disconnected from patient outcomes	-	-	PERRG	
+3	-	discrimination	-	-	CIRG	
+3	-	discrimination from service users	-	-	CIRG	
+3	-	dissatisfaction	-	-	CIRG	
+3	-	dissatisfaction with processes	-	-	CIRG	
+3	-	dissatisfaction with reporting	-	-	CIRG	
+3	-	distrust	-	-	CIRG	
+3	-	distrust in processes	-	-	CIRG	
+3	-	drained	-	-	PERRG	
+3	-	dread	-	-	PERRG	
+3	-	effectiveness discussions	-	-	PERRG	
+3	-	emotional depletion	-	-	PERRG	
+3	-	emotional exhaustion	-	-	PERRG	
+3	-	emotional fatigue	-	-	PERRG	
+3	-	emotional strain	-	-	PERRG	
+3	-	empathy	-	-	CIRG	
+3	-	empowerment	-	-	CIRG	
+3	-	encouragement	-	-	CIRG	
+3	-	engagement	-	-	CIRG	
+3	-	enjoy working with team	-	-	CIRG	
+3	-	enjoyment of work	-	-	CIRG	
+3	-	enthusiasm	-	-	CIRG	
+3	-	environment	-	-	CIRG	
+3	-	equal opportunities	-	-	CIRG	
+3	-	equipment shortages	-	-	PERRG	
+3	-	excluded from decisions	-	-	CIRG	
+3	-	exclusion	-	-	CIRG	
+3	-	exhaustion	-	-	PERRG	
+3	-	facilities	-	-	PERRG	
+3	-	fairness	-	-	CIRG	
+3	-	fairness concerns	-	-	CIRG	
+3	-	fatigue	-	-	PERRG	
+3	-	favouritism	-	-	CIRG	
+3	-	fear	-	-	CIRG	
+3	-	fear of blame	-	-	CIRG	
+3	-	fear of repercussions	-	-	CIRG	
+3	-	fear of retaliation	-	-	CIRG	
+3	-	feeling dismissed	-	-	CIRG	
+3	-	feeling overlooked	-	-	CIRG	
+3	-	feeling unsupported	-	-	PEGG	
+3	-	feeling unwell	-	-	PERRG	
+3	-	feeling valued	-	-	CIRG	
+3	-	financial stress	-	-	PERRG	
+3	-	flexibility	-	-	CIRG	
+3	-	flexibility in team work	-	-	CIRG	
+3	-	flexible patterns	-	-	CIRG	
+3	-	flexible shifts	-	-	CIRG	
+3	-	flexible working	-	-	CIRG	
+3	-	flexible working discussions	-	-	CIRG	
+3	-	flow	-	-	CIRG	
+3	-	follow-through	-	-	CIRG	
+3	-	food availability	-	-	PERRG	
+3	-	freedom	-	-	CIRG	
+3	-	freedom in work	-	-	CIRG	
+3	-	freedom to raise issues	-	-	CIRG	
+3	-	frustration	-	-	CIRG	
+3	-	Funding allocation for education	-	-	NHSE Contract Assurance	
+3	-	general comments	-	-	CIRG	
+3	-	general concerns	-	-	CIRG	
+3	-	general pay dissatisfaction	-	-	CIRG	
+3	-	goal setting	-	-	CIRG	
+3	-	good place to work	-	-	PERRG	
+3	-	government policy	-	-	PEGG	
+3	-	harassment	-	-	CIRG	
+3	-	health impacts	-	-	PERRG	
+3	-	healthy balance	-	-	CIRG	
+3	-	healthy disagreement	-	-	CIRG	
+3	-	helpful appraisal	-	-	CIRG	
+3	-	hierarchy	-	-	CIRG	
+3	-	ideas not acted on	-	-	PEGG	
+3	-	ignored	-	-	CIRG	
+3	-	impact	-	-	PERRG	
+3	-	imposed decisions	-	-	CIRG	
+3	-	improved performance	-	-	PERRG	
+3	-	improvement ideas	-	-	PEGG	
+3	-	inappropriate behaviour	-	-	CIRG	
+3	-	inappropriate conduct	-	-	CIRG	
+3	-	incident reporting	-	-	CIRG	
+3	-	inclusion	-	-	CIRG	
+3	-	inconsistent follow-up	-	-	CIRG	
+3	-	independence	-	-	CIRG	
+3	-	inefficiency	-	-	PERRG	
+3	-	inflation	-	-	CIRG	
+3	-	influence	-	-	CIRG	
+3	-	infrastructure issues	-	-	PERRG	
+3	-	initiative	-	-	PEGG	
+3	-	innovation	-	-	PEGG	
+3	-	interest in wellbeing	-	-	PERRG	
+3	-	inter-team collaboration	-	-	CIRG	
+3	-	intimidation	-	-	CIRG	
+3	-	involvement	-	-	CIRG	
+3	-	involvement in change	-	-	CIRG	
+3	-	isolation	-	-	CIRG	
+3	-	issues addressed	-	-	CIRG	
+3	-	job improvement	-	-	PEGG	
+3	-	job satisfaction	-	-	CIRG	
+3	-	job seeking	-	-	PERRG	
+3	-	juggling tasks	-	-	PERRG	
+3	-	kindness	-	-	CIRG	
+3	-	lack of action	-	-	PEGG	
+3	-	lack of follow-up	-	-	CIRG	
+3	-	lack of influence	-	-	CIRG	
+3	-	lack of supplies	-	-	PERRG	
+3	-	leadership concerns	-	-	CIRG	
+3	-	leadership decisions	-	-	CIRG	
+3	-	leadership visibility	-	-	CIRG	
+3	-	learning opportunities	-	-	Education Leads	
+3	-	listening	-	-	CIRG	
+3	-	loyalty	-	-	PERRG	
+3	-	making improvements	-	-	PEGG	
+3	-	manageable balance	-	-	CIRG	
+3	-	manager communication	-	-	CIRG	
+3	-	manager inaction	-	-	CIRG	
+3	-	manager openness	-	-	CIRG	
+3	-	manager seeks input	-	-	CIRG	
+3	-	manager wellbeing support	-	-	CIRG	
+3	-	marginalisation	-	-	CIRG	
+3	-	meaningful work	-	-	CIRG	
+3	-	micromanagement	-	-	CIRG	
+3	-	miscellaneous	-	-	CIRG	
+3	-	mismatch between responsibilities and band	-	-	CIRG	
+3	-	mixed experiences	-	-	CIRG	
+3	-	motivation	-	-	CIRG	
+3	-	MSK problems	-	-	PERRG	
+3	-	national NHS issues	-	-	PEGG	
+3	-	no energy	-	-	PERRG	
+3	-	no fear	-	-	CIRG	
+3	-	non-clinical undervalued	-	-	CIRG	
+3	-	nutritious food	-	-	PERRG	
+3	-	opportunities to contribute	-	-	PEGG	
+3	-	organisational blockers	-	-	PEGG	
+3	-	organisational follow-through	-	-	CIRG	
+3	-	organisational layers	-	-	CIRG	
+3	-	organisational prioritisation	-	-	CIRG	
+3	-	organisational recognition	-	-	CIRG	
+3	-	organisational reliability	-	-	CIRG	
+3	-	organisational reputation	-	-	PERRG	
+3	-	organisational responsiveness	-	-	CIRG	
+3	-	organisational support	-	-	PEGG	
+3	-	organisational teamwork	-	-	CIRG	
+3	-	organisational values	-	-	CIRG	
+3	-	overlooked	-	-	CIRG	
+3	-	overlooked by manager	-	-	CIRG	
+3	-	overlooked by peers	-	-	CIRG	
+3	-	overwhelmed	-	-	PERRG	
+3	-	pace of work	-	-	PERRG	
+3	-	pandemic effects	-	-	PERRG	
+3	-	partnership	-	-	CIRG	
+3	-	passion	-	-	CIRG	
+3	-	patient care	-	-	PERRG	
+3	-	patient concerns ignored	-	-	CIRG	
+3	-	patient experience	-	-	PERRG	
+3	-	patient feedback	-	-	PERRG	
+3	-	pay concerns	-	-	CIRG	
+3	-	pay structure	-	-	CIRG	
+3	-	peer appreciation	-	-	CIRG	
+3	-	physical harm	-	-	PERRG	
+3	-	physical strain	-	-	PERRG	
+3	-	planning to leave	-	-	PERRG	
+3	-	polite behaviour	-	-	CIRG	
+3	-	poor infrastructure	-	-	PERRG	
+3	-	poor working relationships	-	-	CIRG	
+3	-	positive anticipation	-	-	CIRG	
+3	-	positive energy	-	-	CIRG	
+3	-	positive focus	-	-	CIRG	
+3	-	positive reinforcement	-	-	CIRG	
+3	-	positive relationships	-	-	CIRG	
+3	-	potential growth	-	-	PEGG	
+3	-	practical support	-	-	PEGG	
+3	-	praise	-	-	CIRG	
+3	-	prescriptive procedures	-	-	PERRG	
+3	-	presenteeism	-	-	PERRG	
+3	-	pressure	-	-	PERRG	
+3	-	pressure to complete tasks quickly	-	-	PERRG	
+3	-	previous negative experiences	-	-	CIRG	
+3	-	pride	-	-	CIRG	
+3	-	priorities shifting	-	-	PERRG	
+3	-	problem solving	-	-	PEGG	
+3	-	progression opportunities	-	-	CIRG	
+3	-	protected characteristics	-	-	CIRG	
+3	-	psychological safety	-	-	CIRG	
+3	-	purpose	-	-	CIRG	
+3	-	racism	-	-	CIRG	
+3	-	recognition	-	-	CIRG	
+3	-	recognition from colleagues	-	-	CIRG	
+3	-	recognition imbalance	-	-	CIRG	
+3	-	reflective practice	-	-	CIRG	
+3	-	reluctance to speak up	-	-	CIRG	
+3	-	reporting bullying	-	-	CIRG	
+3	-	reporting harassment	-	-	CIRG	
+3	-	reporting violence	-	-	CIRG	
+3	-	resource allocation	-	-	PERRG	
+3	-	respect	-	-	CIRG	
+3	-	responsiveness	-	-	CIRG	
+3	-	review completed	-	-	CIRG	
+3	-	rigid processes	-	-	PERRG	
+3	-	rising costs	-	-	CIRG	
+3	-	role clarity	-	-	CIRG	
+3	-	role understanding	-	-	CIRG	
+3	-	rushing	-	-	PERRG	
+3	-	safe to speak	-	-	CIRG	
+3	-	safety	-	-	PERRG	
+3	-	salary issues	-	-	CIRG	
+3	-	senior decision-making	-	-	CIRG	
+3	-	senior engagement	-	-	CIRG	
+3	-	senior management issues	-	-	CIRG	
+3	-	sexism	-	-	CIRG	
+3	-	sexual harassment	-	-	CIRG	
+3	-	sexual harassment from staff	-	-	CIRG	
+3	-	shared objectives	-	-	CIRG	
+3	-	shared understanding	-	-	CIRG	
+3	-	skill development	-	-	Education Leads	
+3	-	staff group disparity	-	-	PERRG	
+3	-	staffing shortages	-	-	PERRG	
+3	-	standards slipping	-	-	PERRG	
+3	-	Statutory training requirements	-	-	NHSE Contract Assurance	
+3	-	staying late	-	-	PERRG	
+3	-	stimulating tasks	-	-	CIRG	
+3	-	strained relationships	-	-	PERRG	
+3	-	strategic choices	-	-	PEGG	
+3	-	stress impacts	-	-	PERRG	
+3	-	stress support	-	-	PERRG	
+3	-	stretch opportunities	-	-	Education Leads	
+3	-	struggling financially	-	-	CIRG	
+3	-	suggestions	-	-	PEGG	
+3	-	suggestions ignored	-	-	PEGG	
+3	-	supervision access	-	-	CIRG	
+3	-	support	-	-	PEGG	
+3	-	supported by team	-	-	CIRG	
+3	-	supported development	-	-	Education Leads	
+3	-	supportive colleagues	-	-	CIRG	
+3	-	supportive culture	-	-	CIRG	
+3	-	supportive manager	-	-	CIRG	
+3	-	system pressures	-	-	PERRG	
+3	-	taken seriously	-	-	CIRG	
+3	-	team autonomy	-	-	CIRG	
+3	-	team awareness	-	-	CIRG	
+3	-	team goals	-	-	CIRG	
+3	-	team identity	-	-	CIRG	
+3	-	team meetings	-	-	CIRG	
+3	-	team recognition differences	-	-	CIRG	
+3	-	team reflection	-	-	CIRG	
+3	-	team satisfaction	-	-	CIRG	
+3	-	team strain	-	-	PERRG	
+3	-	tension	-	-	CIRG	
+3	-	thinking of leaving	-	-	PERRG	
+3	-	time pressure	-	-	PERRG	
+3	-	top-down change	-	-	CIRG	
+3	-	training access	-	-	Education Leads	
+3	-	training availability	-	-	Education Leads	
+3	-	trust	-	-	CIRG	
+3	-	trust in services	-	-	CIRG	
+3	-	turnover intention	-	-	PERRG	
+3	-	uncategorised	-	-	CIRG	
+3	-	uncertainty	-	-	CIRG	
+3	-	uncertainty about reporting	-	-	CIRG	
+3	-	unclear reporting processes	-	-	CIRG	
+3	-	uncompensated hours	-	-	CIRG	
+3	-	undermined	-	-	CIRG	
+3	-	understood	-	-	CIRG	
+3	-	undervalued	-	-	CIRG	
+3	-	unfair treatment	-	-	CIRG	
+3	-	unmanageable workload	-	-	PERRG	
+3	-	unnecessary oversight	-	-	CIRG	
+3	-	unpaid overtime	-	-	CIRG	
+3	-	unrealistic expectations	-	-	CIRG	
+3	-	unsafe staffing	-	-	PERRG	
+3	-	unspecified senior issues	-	-	CIRG	
+3	-	unwanted sexual behaviour	-	-	CIRG	
+3	-	vacancies	-	-	PERRG	
+3	-	valued by colleagues	-	-	CIRG	
+3	-	valuing diversity	-	-	CIRG	
+3	-	violence from colleagues	-	-	CIRG	
+3	-	violence from managers	-	-	CIRG	
+3	-	violence from patients	-	-	CIRG	
+3	-	visibility differences	-	-	CIRG	
+3	-	visibility of work	-	-	CIRG	
+3	-	voice	-	-	CIRG	
+3	-	wards prioritised	-	-	CIRG	
+3	-	wellbeing initiatives	-	-	PERRG	
+3	-	wellbeing resources	-	-	Education Leads	
+3	-	wellbeing support	-	-	PERRG	
+3	-	willingness to recommend	-	-	PERRG	
+3	-	work pattern flexibility	-	-	CIRG	
+3	-	working while unwell	-	-	PERRG	
+3	-	work-life balance	-	-	CIRG	
+3	-	work-life balance	-	-	CIRG	
+3	-	workload linked to staffing	-	-	PERRG	
+3	-	work-related injury	-	-	PERRG	
+3	-	work-related stress	-	-	PERRG	
+3	-	worn out	-	-	PERRG	
